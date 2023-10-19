@@ -39,7 +39,7 @@ render() {
  <Section title="Please leave feedback">
  <FeedbackOptions 
  options = {options}
- onLeaveFeedback={this.onLeaveFeedback}></FeedbackOptions>
+ onLeaveFeedback={this.onLeaveFeedback}/>
  </Section>
  <Section title="Statistics">
   {countTotalFeedback !==0 ? (<Statistics good={good} neutral={neutral} bad={bad} total={countTotalFeedback} positivePercentage={countPositiveFeedbackPercentage}/>) : (<Notification message="There is no feedback"/>)}
