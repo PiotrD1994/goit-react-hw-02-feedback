@@ -1,0 +1,8 @@
+.list {
+  list-style: none;
+  text-align: center;
+}
+
+.item {
+  font-size: 20px;
+}
